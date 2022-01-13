@@ -5,41 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="./css/index.css" rel="stylesheet">
   </head>
-  <body>
-    <img src="https://wayup.in/courses/course10/lesson2/logo.jpg" />
-    <h1>Вступление</h1>
-    <p>
-      Это текст моего первого домашнего задания.<br />
-      Не верится, но мне уже удается писать свой первый код на HTML.
-    </p>
-    <h2>
-      Что дальше? 
-      <p>
-        Дальше, я буду получать все больше и больше опыта в разработке сайтов,
-        чтобы достичь новых вершин
+  <body >
+    <header class="container">
+      <img src="https://wayup.in/courses/course10/lesson2/logo.jpg"  class="header__logo" />
+      <h1 class="title">Вступление</h1>
+      <p class="description">
+        Это текст моего первого домашнего задания.
+        Не верится, но мне уже удается писать свой первый код на HTML.
       </p>
-      <a href="https://google.com" target="blank">прочитать больше в Google</a>
-    </h2>
-    <h2>Что я буду уметь?</h2>
-    <p>Я смогу создавать такие замечательные формы:</p>
-    <form action="#">
-      <input type="text" name="name" placeholder="Имя" required />
-      <input type="email" name="email" placeholder="E-mail" required />
-      <input type="tel" name="phone" placeholder="Телефон" required />
-      <button type="submit">Отправить данные</button>
-    </form>
-    <p>А также, я научусь создавать списки:</p>
-    <ul>
-      <li>С одним пунктом</li>
-      <li>С несколькими пунктами</li>
-      <li>И даже с тремя отдельными пунктами</li>
-      <li>И да, вы не сможете поверить своим глазам, но это четвертый</li>
-    </ul>
-    <h2>Отличное начало!</h2>
-    <a href="https://wayup.in/cabinet/course10-27-wave/unit1/lesson1"
-      >Перейти на страницу первого занятия курса</a
-    >
-    <div id="wt-sky-root"></div>
+    </header>
+    <main class="main">
+      <section class="container">
+        <h2 class="title">
+          Что дальше?
+
+        </h2>
+          <p class="description">
+            Дальше, я буду получать все больше и больше опыта в разработке
+            сайтов, чтобы достичь новых вершин
+          </p>
+          <a href="https://google.com" target="blank"
+            class="link">прочитать больше в Google</a
+          >
+        <h2>Что я буду уметь?</h2>
+        <p class="description">Я смогу создавать такие замечательные формы:</p>
+        <form action="#" class="form">
+          <input class="input" type="text" name="name" placeholder="Имя" required />
+          <input class="input" type="email" name="email" placeholder="E-mail" required />
+          <input class="input" type="tel" name="phone" placeholder="Телефон" required />
+          <button type="submit" class="submit__btn">Отправить данные</button>
+        </form>
+        <p class="description">А также, я научусь создавать списки:</p>
+        <ul>
+          <li>С одним пунктом</li>
+          <li>С несколькими пунктами</li>
+          <li>И даже с тремя отдельными пунктами</li>
+          <li>И да, вы не сможете поверить своим глазам, но это четвертый</li>
+        </ul>
+      </section>
+    </main>
+<footer class="container">
+      <h2 class="title">Отличное начало!</h2>
+      <a href="https://wayup.in/cabinet/course10-27-wave/unit1/lesson1" class="link">Перейти на страницу первого занятия курса</a>
+     
+</footer>
+
   </body>
 </html>
