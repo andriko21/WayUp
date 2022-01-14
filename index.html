@@ -5,52 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="./css/index.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet" />
   </head>
-  <body >
+  <body>
     <header class="container">
-      <img src="https://wayup.in/courses/course10/lesson2/logo.jpg"  class="header__logo" />
-      <h1 class="title">Вступление</h1>
-      <p class="description">
+      <img
+        src="https://wayup.in/courses/course10/lesson2/logo.jpg"
+        class="header__logo"
+      />
+      <h1 class="header__title">Вступление</h1>
+      <p class="header__description">
         Это текст моего первого домашнего задания.
-        Не верится, но мне уже удается писать свой первый код на HTML.
+      </p>
+      <p>
+        Не верится, но мне уже удается писать свой
+        <span class="header__firstCode">первый код на HTML.</span>
       </p>
     </header>
     <main class="main">
       <section class="container">
-        <h2 class="title">
-          Что дальше?
-
-        </h2>
-          <p class="description">
-            Дальше, я буду получать все больше и больше опыта в разработке
-            сайтов, чтобы достичь новых вершин
-          </p>
-          <a href="https://google.com" target="blank"
-            class="link">прочитать больше в Google</a
-          >
-        <h2>Что я буду уметь?</h2>
-        <p class="description">Я смогу создавать такие замечательные формы:</p>
+        <h2 class="main__title">Что дальше?</h2>
+        <p class="description">
+          Дальше, я буду получать все больше и больше опыта в разработке сайтов,
+          чтобы достичь новых вершин
+          <a href="https://google.com" target="blank" class="link">прочитать больше в Google</a>
+        </p>
+        
+        <h2 class="main__second_title">Что я буду уметь?</h2>
+        <p class="main__description">Я смогу создавать такие замечательные формы:</p>
         <form action="#" class="form">
-          <input class="input" type="text" name="name" placeholder="Имя" required />
-          <input class="input" type="email" name="email" placeholder="E-mail" required />
-          <input class="input" type="tel" name="phone" placeholder="Телефон" required />
+          <input
+            class="input"
+            type="text"
+            name="name"
+            placeholder="Имя"
+            required
+          />
+          <input
+            class="input"
+            type="email"
+            name="email"
+            placeholder="E-mail"
+            required
+          />
+          <input
+            class="input"
+            type="tel"
+            name="phone"
+            placeholder="Телефон"
+            required
+          />
           <button type="submit" class="submit__btn">Отправить данные</button>
         </form>
         <p class="description">А также, я научусь создавать списки:</p>
         <ul>
-          <li>С одним пунктом</li>
-          <li>С несколькими пунктами</li>
-          <li>И даже с тремя отдельными пунктами</li>
-          <li>И да, вы не сможете поверить своим глазам, но это четвертый</li>
+          <li class="item">С одним пунктом</li>
+          <li class="item">С несколькими пунктами</li>
+          <li class="item">И даже с тремя отдельными пунктами</li>
+          <li class="item">И да, вы не сможете поверить своим глазам, но это четвертый</li>
         </ul>
       </section>
     </main>
-<footer class="container">
-      <h2 class="title">Отличное начало!</h2>
-      <a href="https://wayup.in/cabinet/course10-27-wave/unit1/lesson1" class="link">Перейти на страницу первого занятия курса</a>
-     
-</footer>
-
+    <footer class="container">
+      <h2 class="main__title">Отличное начало!</h2>
+      <a
+        href="https://wayup.in/cabinet/course10-27-wave/unit1/lesson1"
+        class="link"
+        >Перейти на страницу первого занятия курса</a
+      >
+    </footer>
   </body>
 </html>
