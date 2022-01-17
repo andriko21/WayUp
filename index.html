@@ -2,77 +2,101 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link href="./css/index.css" rel="stylesheet" />
+    <title>title</title>
   </head>
+
   <body>
-    <header class="container">
-      <img
-        src="https://wayup.in/courses/course10/lesson2/logo.jpg"
-        class="header__logo"
-      />
-      <h1 class="header__title">Вступление</h1>
-      <p class="header__description">
-        Это текст моего первого домашнего задания.
-      </p>
-      <p>
-        Не верится, но мне уже удается писать свой
-        <span class="header__firstCode">первый код на HTML.</span>
-      </p>
+    <header class="header">
+      <div class="container">
+        <img src="img/logo1.png" alt="WayUpLogo" />
+        <div class="wrapper">
+          <div class="offer">
+            <h1 class="title">
+              С помощью верстки <br />я создам ту жизнь, о которой
+              <span>мечтаю!</span>
+            </h1>
+            <p class="intro">
+              Мои стремления + настойчивость позволят мне достичь чего угодно. Я
+              не верю в это. Я знаю это на 100%. Меня не остановить!
+            </p>
+            <a
+              href="https://wayup.in/cabinet/course10-27-wave/unit1/lesson4"
+              class="btn"
+              target="_blank"
+              >Двигаться к мечте!</a
+            >
+          </div>
+          <img src="img/travel.png" alt="travel" class="travelIMG" />
+        </div>
+      </div>
     </header>
-    <main class="main">
-      <section class="container">
-        <h2 class="main__title">Что дальше?</h2>
-        <p class="description">
-          Дальше, я буду получать все больше и больше опыта в разработке сайтов,
-          чтобы достичь новых вершин
-          <a href="https://google.com" target="blank" class="link">прочитать больше в Google</a>
-        </p>
-        
-        <h2 class="main__second_title">Что я буду уметь?</h2>
-        <p class="main__description">Я смогу создавать такие замечательные формы:</p>
-        <form action="#" class="form">
+    <section class="objectives">
+      <h2>Что меня ждёт впереди</h2>
+      <div class="container">
+        <div class="objectives_container">
+          <div class="myObjectives">
+            <img src="img/icon1.png" alt="objectives" />
+            <h3>Свободное время</h3>
+            <p class="">
+              Мне нужно свободное время на семью <br />и самое настоящее
+            </p>
+          </div>
+          <div class="myObjectives">
+            <img src="img/icon2.png" alt="objectives" />
+            <h3>Яркие путешествия</h3>
+            <p class="">Работать откуда угодно - что может быть лучше?</p>
+          </div>
+          <div class="myObjectives">
+            <img src="img/icon3.png" alt="objectives" />
+            <h3>Создание ценности</h3>
+            <p class="">
+              Нет ничего сильнее, чем жить не просто так, создавая ценность
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="formToFuture">
+      <div class="container">
+        <h2>Форма заказа билета в будущее</h2>
+        <form>
+          <input type="name" placeholder="Имя" class=" " />
+          <input type="mail" placeholder="E-mail" class=" " />
+          <input type="tel" placeholder="Телефон" class=" " />
           <input
-            class="input"
             type="text"
-            name="name"
-            placeholder="Имя"
-            required
+            placeholder="Куда я полечу в ближайшее время?"
+            class="plans input"
           />
-          <input
-            class="input"
-            type="email"
-            name="email"
-            placeholder="E-mail"
-            required
-          />
-          <input
-            class="input"
-            type="tel"
-            name="phone"
-            placeholder="Телефон"
-            required
-          />
-          <button type="submit" class="submit__btn">Отправить данные</button>
+          <button type="submit" class="btn dop">Двигаться к мечте!</button>
         </form>
-        <p class="description">А также, я научусь создавать списки:</p>
-        <ul>
-          <li class="item">С одним пунктом</li>
-          <li class="item">С несколькими пунктами</li>
-          <li class="item">И даже с тремя отдельными пунктами</li>
-          <li class="item">И да, вы не сможете поверить своим глазам, но это четвертый</li>
-        </ul>
-      </section>
-    </main>
-    <footer class="container">
-      <h2 class="main__title">Отличное начало!</h2>
-      <a
-        href="https://wayup.in/cabinet/course10-27-wave/unit1/lesson1"
-        class="link"
-        >Перейти на страницу первого занятия курса</a
-      >
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>© Все мои мечты защищены моим трудолюбием</p>
+      </div>
     </footer>
   </body>
 </html>

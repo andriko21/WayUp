@@ -1,60 +1,150 @@
 body {
-  display: flex;
-  flex-direction: column;
-  padding: 35px 40px;
+  /* font-family: "Open Sans", sans-serif; */
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
 }
 
-.header__title {
-  color: red;
-  font-size: 40px;
-  font-weight: 600;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.header {
+  background: #00bfff;
+
+  background: linear-gradient(135deg, #00bfff 1%, #0090dc 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bfff', endColorstr='#0090dc',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4efbfe', endColorstr='#3790de', GradientType=1 );
+  padding-top: 70px;
+  color: #fff;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 40px 0 40px;
+}
+
+.wrapper {
+  display: flex;
+  margin-top: 30px;
+}
+
+.title {
   margin-top: 25px;
   margin-bottom: 25px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 37px;
+  display: block;
+  width: 554px;
+  line-height: 50px;
 }
 
-.header__description {
-  width: 150px;
-  background-color: blue;
-  font-size: 20px;
-  font-weight: 400;
+.title span {
+  font-size: 59px;
 }
 
-.header__firstCode {
-  color: red;
+.intro {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  display: block;
+  width: 400px;
+  margin-bottom: 45px;
 }
 
-.main__title {
-  color: #fff;
-  background-color: green;
-  padding: 8px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+.btn {
+  display: block;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  background: #ffd500;
+  color: black;
+  width: 222px;
+  padding: 15px 0;
+  border: transparent;
 }
 
-.link {
-  color: blue;
-  font-size: 20px;
-  font-weight: 600;
+.travelIMG {
+  position: relative;
+  top: -80px;
+  right: 0;
 }
 
-.main__second_title {
-  color: #fff;
-  background-color: green;
-  padding: 40px 30px;
+.objectives {
+  padding-top: 113px;
+  padding-bottom: 120px;
 }
 
-.main__description {
-  margin-left: 70px;
+.objectives h2 {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin: 0 auto;
 }
 
-.input {
-  margin-bottom: 8px;
-
-  margin-top: 4px;
+.myObjectives {
+  width: 290px;
+  text-align: center;
+  margin-top: 75px;
 }
 
-.item {
-  border: 1px solid black;
-  margin-bottom: 5px;
-  font-size: 27px;
+.objectives_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.objectives_container p {
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+}
+
+.formToFuture {
+  padding-top: 113px;
+  background: #eaf3f8;
+  padding-bottom: 100px;
+}
+
+.formToFuture h2 {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.formToFuture form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 63px;
+}
+
+.formToFuture input {
+  width: 343px;
+  height: 48px;
+  border: 1px solid #bcbcbc;
+  border-radius: 2px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  padding-left: 24px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.dop {
+  width: 343px;
+}
+
+.footer {
+  padding: 60px 0;
+  background-color: #004c7c;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
